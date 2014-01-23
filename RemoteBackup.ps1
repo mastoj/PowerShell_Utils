@@ -2,7 +2,7 @@
 $computer = read-host 'Enter server name'
 $database = read-host 'Enter database name'
 $backupName = read-host 'Enter backup name'
-$backupFolder = read-host 'Enter folder for backup'
+$backupFolder = read-host 'Enter remote folder for backup'
 $timestamp = (Get-Date).ToString("yyyyMMddHHmm")
 $fullBackupName = "$backupFolder\" + $backupName + "_$timestamp.bak"
 $credential = read-host 'Enter user name'
