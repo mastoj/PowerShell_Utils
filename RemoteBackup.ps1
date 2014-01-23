@@ -1,3 +1,10 @@
+#
+# Don't forget to enable script execution and powershell remoting on your server 
+# Set-ExecutionPolicy unrestricted
+# og 
+# Enable-PSRemoting -force
+#
+
 
 $computer = read-host 'Enter server name'
 $database = read-host 'Enter database name'
